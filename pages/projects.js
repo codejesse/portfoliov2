@@ -11,7 +11,7 @@ function projects() {
                 <p>🚀some of my projects, <a href='/'>Home 👋 &rarr;</a></p> 
             </main>
             <ProjectList
-                img='screentime.png'
+                img='screentime2.png'
                 link='https://screentime.vercel.app/' name='screentime'
                 description='Movie web app made with reactjs'
             />
