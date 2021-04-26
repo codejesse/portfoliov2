@@ -8,8 +8,8 @@ function projects() {
         <div>
             <main className={styles.projectsHeader}>
                 <h2>Projects 🧪</h2>
-                <p>🚀some of my projects, <a style={{color: 'blue'}} href='/'>Home 👋 &rarr;</a></p> 
-                <p>Check my github profile for more</p><a style={{color: 'blue'}} href='https://github.com/codejesse/'>github &rarr;</a>
+                <p>🚀some of my projects, <a style={{ color: 'blue' }} href='/'>Home 👋 &rarr;</a></p>
+                <p>Check my github profile for more</p><a style={{ color: 'blue' }} href='https://github.com/codejesse/'>github &rarr;</a>
             </main>
             <ProjectList
                 img='screentime2.png'
@@ -28,8 +28,13 @@ function projects() {
             />
             <ProjectList
                 img='socialproof.png'
-                link='' name='socialproof'
+                link='https://github.com/codejesse/Social-proof-page/tree/master/social-proof-section-master' name='socialproof'
                 description='social proof page challenge by frontendmentor'
+            />
+            <ProjectList
+                img='jesse.png'
+                link='https://jesse-silk.vercel.app/' name='My Portfolio'
+                description='The html version of my portfolio showing off some css'
             />
         </div>
     )
