@@ -12,7 +12,7 @@ export default function Home() {
       <main className={styles.main}>
         <img className={styles.image} src='jesseb.jpg'/>
         <h1 className={styles.title}>
-          Hi, 👋 am <a href="https://twitter.com/jessebeke">Jesse Beke</a>
+          Hi, 👋 i'm <a href="https://twitter.com/jessebeke">Jesse Beke</a>
         </h1>
         { console.log('Hi 👋 Jesse Here, want to talk hmu via twitter (https://twitter.com/jessebeke) or send an email (mailto:jessebeke10@gmail.com)') }
         <h3>A frontend developer creating web experiences 🚀</h3>
