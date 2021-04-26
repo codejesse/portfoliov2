@@ -8,7 +8,8 @@ function projects() {
         <div>
             <main className={styles.projectsHeader}>
                 <h2>Projects 🧪</h2>
-                <p>🚀some of my projects, <a href='/'>Home 👋 &rarr;</a></p> 
+                <p>🚀some of my projects, <a style={{color: 'blue'}} href='/'>Home 👋 &rarr;</a></p> 
+                <p>Check my github profile for more</p><a style={{color: 'blue'}} href='https://github.com/codejesse/'>github &rarr;</a>
             </main>
             <ProjectList
                 img='screentime2.png'
