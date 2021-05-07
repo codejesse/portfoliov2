@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -14,15 +16,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'Poppins';
 }
 
-/* .mainlinks {
+.mainlinks {
   display: inline-block;
-  font-size: 20px;
-  padding: 20px;
-  margin: 0;
-} */
-
+  padding: 5px;
+}
 
 .footer {
   width: 100%;
@@ -69,7 +69,8 @@
 .title {
   margin-left: auto;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 3.5rem;
+  font-family: 'Poppins';
 }
 
 .title,
@@ -118,22 +119,30 @@
   }
   .projects img {
     align-items: center;
-    margin: 0;
+    margin: 1px;
     width: 350px;
     height: 100px;
+  }
+  .about {
+    margin: 0px;
+    /* margin-left: 0px;
+    margin-right: 0px; */
   }
 }
 
 .projectsHeader {
   font-size: 1.4rem;
   text-align: center;
-  font-family: sans-serif;
+  font-family: 'Poppins';
 }
 
 .projects {
   font-size: 1.3rem;
   text-align: center;
   margin-top: 30px;
+  float: left;
+  width: 34.33%;
+  margin-left: 120px;
 }
 
 .projects a{
@@ -146,9 +155,43 @@
   width: 550px;
   transition: all 1s;
   cursor: pointer;
+  border-radius: 20px;
 }
 
 .projects img:hover {
   transform: scale(1.1);
 }
 
+/* about page */
+.about {
+  font-family: 'Poppins';
+  text-align: center;
+  margin: 100px;
+  margin-top: 200px;
+  margin-bottom: auto;
+}
+
+.about button{
+  background-color: #0070f3;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.about img:hover{
+  transform: scale(1.1);
+}
+
+.aboutlink {
+  color: #0070f3;
+}
+
+.aboutlink:hover{
+  text-decoration: underline;
+}
