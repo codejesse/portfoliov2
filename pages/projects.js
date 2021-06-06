@@ -13,8 +13,7 @@ function projects() {
                 <link rel="icon" href="/jesseb.jpg" />
             </Head>
             <main className={styles.projectsHeader}>
-                <h1>Projects 🧪</h1>
-                <p>🚀some of my projects</p>
+                <h1>🧪Some of My Projects 🧪</h1>
                 <p>Check my <a style={{ color: 'blue' }} href='https://github.com/codejesse/'>github</a> profile for more</p>
                 <a style={{ color: 'blue' }} href='/'>&larr; Home  </a>
                 <a style={{ color: 'blue' }} href='/about'> About &rarr;</a>
@@ -38,11 +37,6 @@ function projects() {
                 img='socialproof.png'
                 link='https://github.com/codejesse/Social-proof-page/tree/master/social-proof-section-master' name='socialproof'
                 description='social proof page challenge by frontendmentor'
-            />
-            <ProjectList
-                img='jesse.png'
-                link='https://jesse-silk.vercel.app/' name='My Portfolio'
-                description='The html version of my portfolio showing off some css'
             />
         </div>
     )
