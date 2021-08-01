@@ -233,5 +233,5 @@
 }
 
 .aboutlink:hover{
-  text-decoration: underline;
+  text-transform: unset;
 }

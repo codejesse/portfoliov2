@@ -10,7 +10,7 @@ const values = [
   "Nǐ hǎo 👋, wǒ jiào ",
   "innovative 🚀 ",
   "⚡Work with ",
-  "Hello 👋,i'm ",
+  "Namaste 🙏, i'm ",
 ];
 
 export default function Home() {
@@ -42,9 +42,11 @@ export default function Home() {
         </h1>
         {/* {console.log('Hi 👋 Jesse Here, want to talk hmu via twitter (https://twitter.com/jessebeke) or send an email (mailto:jessebeke10@gmail.com)')} */}
         <h3>a frontend developer creating web experiences </h3>
-        <button><a className={styles.mainlinks} href="/projects">
-          Explore &rarr;
-        </a></button>
+        <button>
+          <a className={styles.mainlinks} href="/projects">
+            Explore &rarr;
+          </a>
+        </button>
       </main>
       <footer className={styles.footer}>
         <p>

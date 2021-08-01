@@ -29,9 +29,9 @@ function projects() {
                 description='A news site made with reactjs and tailwindcss'
             />
             <ProjectList
-                img='readarticles.png'
-                link='https://letsreadarticles.herokuapp.com/' name='Readarticles'
-                description='A news web app made with python and flask'
+                img='kso.png'
+                link='https://kso.vercel.app/' name='Kso website'
+                description='The prototype website made with Html, css and javaScript'
             />
             <ProjectList
                 img='socialproof.png'
