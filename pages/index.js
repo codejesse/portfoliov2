@@ -4,10 +4,10 @@ import styles from "../styles/Home.module.css";
 import { useDencrypt } from "use-dencrypt-effect";
 
 const values = [
-  "Hi 👋 i'm ",
-  "Hola 👋 soy ",
-  "Bonjour 👋 je suis ",
-  "Nǐ hǎo 👋, wǒ jiào ",
+  "Hi 👋🏿 i'm ",
+  "Hola 👋🏿 soy ",
+  "Bonjour 👋🏿 je suis ",
+  "Nǐ hǎo 👋🏿, wǒ jiào ",
   "innovative 🚀 ",
   "⚡Work with ",
   "Namaste 🙏, i'm ",
@@ -41,7 +41,7 @@ export default function Home() {
           <a href="https://twitter.com/jessebeke">Jesse Beke</a>
         </h1>
         {/* {console.log('Hi 👋 Jesse Here, want to talk hmu via twitter (https://twitter.com/jessebeke) or send an email (mailto:jessebeke10@gmail.com)')} */}
-        <h3>a frontend developer creating web experiences </h3>
+        <h3>a passionate front end developer</h3>
         <button>
           <a className={styles.mainlinks} href="/projects">
             Explore &rarr;
