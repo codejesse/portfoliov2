@@ -21,12 +21,12 @@ function projects() {
             <ProjectList
                 img='screentime2.png'
                 link='https://screentime.vercel.app/' name='screentime'
-                description='Movie web app made with reactjs'
+                description='Movie web app made with reactjs shows the latest movies'
             />
             <ProjectList
                 img='reactnews.png'
                 link='https://github.com/codejesse/Newsifyit' name='Newsify'
-                description='A news site made with reactjs and tailwindcss'
+                description='A news site made with reactjs and tailwindcss get the latest news'
             />
             <ProjectList
                 img='kso.png'
