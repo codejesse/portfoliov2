@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import { useDencrypt } from "use-dencrypt-effect";
+import 'animate.css' 
 
 const values = [
   "Hi 👋🏿 i'm ",
@@ -31,17 +32,17 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Jesse 🚀</title>
+        <title>Hi 👋🏿| Jesse Beke</title>
         <link rel="icon" href="/jesseb.jpg" />
       </Head>
       <main className={styles.main}>
-        <img className={styles.image} src="jesseb.jpg" />
+        <img className={styles.image}  src="jessecart.png" />
         <h1 className={styles.title}>
           {result}
           <a href="https://twitter.com/jessebeke">Jesse Beke</a>
         </h1>
         {/* {console.log('Hi 👋 Jesse Here, want to talk hmu via twitter (https://twitter.com/jessebeke) or send an email (mailto:jessebeke10@gmail.com)')} */}
-        <h3>a passionate front end developer</h3>
+        {/* <h3>a passionate front end developer</h3> */}
         <button>
           <a className={styles.mainlinks} href="/projects">
             Explore &rarr;

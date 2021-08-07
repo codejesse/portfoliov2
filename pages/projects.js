@@ -13,7 +13,7 @@ function projects() {
                 <link rel="icon" href="/jesseb.jpg" />
             </Head>
             <main className={styles.projectsHeader}>
-                <h1>🧪Some of My Projects 🧪</h1>
+                <h1>Some of My Projects</h1>
                 <p>Check my <a style={{ color: 'blue' }} href='https://github.com/codejesse/'>github</a> profile for more</p>
                 <a style={{ color: 'blue' }} href='/'>&larr; Home  </a>
                 <a style={{ color: 'blue' }} href='/about'> About &rarr;</a>
