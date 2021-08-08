@@ -9,7 +9,7 @@ const about = () => {
                 <title>About 👦🏾</title>
                 <link rel="icon" href="/jesseb.jpg" />
             </Head>
-            <h1>👋 Get to know me</h1>
+            <h1>👋🏿 Get to know me</h1>
             <p>I'm Jesse Beke, a frontend developer from Nigeria, i love creating web applications and web experiences.</p>
             <p>I believe with the right approach anything is possible 🚀</p>
             <br></br>

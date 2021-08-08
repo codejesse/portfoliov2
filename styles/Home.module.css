@@ -128,7 +128,7 @@
     flex-direction: column;
   }
   .title {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-align: center;
   }
   .image {
@@ -174,6 +174,10 @@
 
 .projects a{
   color: #0070f3;
+}
+
+.projects a:hover{
+  text-decoration: underline;
 }
 
 .projects img {
@@ -225,9 +229,15 @@
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  border-radius: 12px;
 }
 
 .about img:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.about button:hover{
   transform: scale(1.1);
 }
 
