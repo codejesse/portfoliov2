@@ -36,7 +36,7 @@ export default function Home() {
         <link rel="icon" href="/jesseb.jpg" />
       </Head>
       <main className={styles.main}>
-        <img className={styles.image} src="jessecart.png"/>
+        <img className={styles.image} src="Jessecart.png"/>
         <h1 className={styles.title}>
           {result}
           <a href="https://twitter.com/jessebeke">Jesse Beke</a>
